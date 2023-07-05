@@ -1,0 +1,88 @@
+@media screen and (max-width: 770px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .logo h2 a {
+    font-size: 20px;
+  }
+
+  #menü-bar {
+    display: grid;
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    border: solid white 1px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    background-color: #24292d;
+    width: 100%;
+    left: 0;
+    padding: 0;
+  }
+
+  .inner-anasayfa {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .child-anasayfa {
+    flex-basis: 100%;
+  }
+
+  .child-anasayfa:last-child {
+    margin-bottom: 20px;
+  }
+  .child-anasayfa h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .inner-home {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .child-home {
+    flex-basis: 100%;
+  }
+
+  .child-home:last-child {
+    margin-bottom: 20px;
+  }
+  .child-home h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .inner-main {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .child-main {
+    flex-basis: 100%;
+  }
+
+  .child-main:last-child {
+    margin-bottom: 20px;
+  }
+  .child-main h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
